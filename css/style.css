@@ -433,14 +433,24 @@ p {
 }
 
 .Portfolio-box img {
-    margin-bottom: 25px;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
-.Portfolio-box img:hover {
-    opacity: 0.6;
+.Portfolio-box-content {
+    position: relative;
+    display: inline-block;
+}
+
+.Portfolio-box-content:hover .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
 }
 
 .Portfolio-nav li a.current {
@@ -471,6 +481,10 @@ img {
 
 .main-section.paddind {
     padding-bottom: 60px;
+}
+
+.overlay {
+    display: none;
 }
 
 
