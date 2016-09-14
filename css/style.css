@@ -423,6 +423,7 @@ p {
 }
 
 .Portfolio-box {
+    box-shadow: 10px 10px 5px #888888;
     text-align: center;
     margin-bottom: 30px;
     height: 350px;
@@ -439,6 +440,7 @@ p {
 }
 
 .Portfolio-box-content {
+    border-bottom: solid 1px;
     position: relative;
     display: inline-block;
 }
