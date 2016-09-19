@@ -124,7 +124,7 @@ p {
 
 .header {
     text-align: center;
-    background-image: url(../img/pexels-photo.jpg);
+    background-image: url(../img/hero_image.jpg);
     background-size: cover;
     padding: 280px 0;
 }
@@ -529,6 +529,8 @@ img {
 .client li a img {
     margin-bottom: 15px;
     border-radius: 50%;
+    max-height: 105px;
+
 }
 
 .client li a:hover {
