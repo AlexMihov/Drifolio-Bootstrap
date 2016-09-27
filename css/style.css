@@ -438,6 +438,7 @@ p {
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
+    border-bottom: solid 1px;
 }
 
 .Portfolio-box-content {
@@ -454,6 +455,10 @@ p {
     background: #7cc576;
     color: #fff;
     text-decoration: none;
+}
+
+.Proj-title {
+    margin-top: 6%;
 }
 
 img {
