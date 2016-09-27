@@ -517,11 +517,11 @@ img {
     margin: 0 15px;
 }
 
-.client li a {
+.client li {
     display: inline-block;
 }
 
-.client li a img {
+.client li img {
     margin-bottom: 15px;
     border-radius: 50%;
     max-height: 105px;
@@ -531,11 +531,11 @@ img {
     text-decoration: none;
 }
 
-.client li a h3 {
+.client li h3 {
     color: #ffffff;
 }
 
-.client li a span {
+.client li span {
     color: #f1f1f1;
 }
 
