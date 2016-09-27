@@ -446,12 +446,10 @@ p {
 
 .Portfolio-box a,
 .Portfolio-box a:hover,
-.Portfolio-box a:active
- {
-    text-decoration:none;
-    color:#888888;
+.Portfolio-box a:active {
+    text-decoration: none;
+    color: #888888;
 }
-
 
 .Portfolio-nav li a.current {
     background: #7cc576;
@@ -499,6 +497,7 @@ img {
 }
 
 .client-part-haead {
+    padding: 2px;
     color: #fdfdfd;
     font-size: 28px;
     line-height: 41px;
@@ -593,6 +592,11 @@ img {
 
 .main-section.team h6 {
     margin-bottom: 40px;
+}
+
+.single-comment {
+    padding-right: 4%;
+    padding-left: 4%;
 }
 
 
