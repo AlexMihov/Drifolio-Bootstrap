@@ -14,6 +14,8 @@
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/slick-carousel/slick/slick.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/slick-carousel/slick/slick-theme.css" rel="stylesheet" type="text/css">
     <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
     <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -22,6 +24,7 @@
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
     <!--<script type="text/javascript" src="js/wow.js"></script>-->
     <script type="text/javascript" src="js/classie.js"></script>
+    <script type="text/javascript" src="js/carusel.js"></script>
     <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
     <script src="js/html5shiv.js"></script>
@@ -214,22 +217,33 @@
     <!--main-section-end-->
     <section class="main-section client-part" id="client">
         <!--main-section client-part-start-->
-        <div class="container">
-            <b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
+        <div class="container single-item">
             <div class="row">
-                <div class="col-lg-12">
-                    <p class="client-part-haead wow fadeInDown delay-05">Many thanks for the marvellous cooperation, everything went great and it was a pleasure to meet you</p>
-                </div>
+                <b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
+                <p class="client-part-haead wow fadeInDown delay-05">Many thanks for the marvellous cooperation, everything went great and it was a pleasure to meet you</p>
+                <ul class="client wow fadeIn delay-05s">
+                    <li>
+                        <a href="">
+                            <img src="img/clients/suse_heinz.jpg" alt="">
+                            <h3>Suse Heinz</h3>
+                            <span>Photo Editor and Owner of Roam Among Lions</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="client wow fadeIn delay-05s">
-                <li>
-                    <a href="#">
-                        <img src="img/clients/suse_heinz.jpg" alt="">
-                        <h3>Suse Heinz</h3>
-                        <span>Photo Editor and Owner of Roam Among Lions</span>
-                    </a>
-                </li>
-            </ul>
+            <div class="row">
+                <b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
+                <p class="client-part-haead wow fadeInDown delay-05">Many thanks for the marvellous cooperation, everything went great and it was a pleasure to meet you</p>
+                <ul class="client wow fadeIn delay-05s">
+                    <li>
+                        <a href="">
+                            <img src="img/clients/suse_heinz.jpg" alt="">
+                            <h3>Daniel Schnyder</h3>
+                            <span>CEO Satcom</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
     <section class="main-section team" id="team">
@@ -433,6 +447,7 @@
                     ga('create', 'UA-48062922-5', 'auto');
                     ga('send', 'pageview');
                     </script>
+                    <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
 </body>
 
 </html>
