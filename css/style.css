@@ -423,7 +423,6 @@ p {
 }
 
 .Portfolio-box {
-    cursor: pointer;
     box-shadow: 10px 10px 5px #888888;
     text-align: center;
     margin-bottom: 30px;
@@ -441,14 +440,15 @@ p {
     border-bottom: solid 1px;
 }
 
-.Portfolio-box-content {
-    border-bottom: solid 1px;
-    position: relative;
-    display: inline-block;
-}
-
 .Portfolio-box:hover img {
     opacity: .5;
+}
+
+.Portfolio-box a,
+.Portfolio-box a:hover,
+.Portfolio-box a:active {
+    text-decoration: none;
+    color: #888888;
 }
 
 .Portfolio-nav li a.current {
@@ -497,6 +497,7 @@ img {
 }
 
 .client-part-haead {
+    padding: 2px;
     color: #fdfdfd;
     font-size: 28px;
     line-height: 41px;
@@ -517,11 +518,11 @@ img {
     margin: 0 15px;
 }
 
-.client li a {
+.client li {
     display: inline-block;
 }
 
-.client li a img {
+.client li img {
     margin-bottom: 15px;
     border-radius: 50%;
     max-height: 105px;
@@ -531,11 +532,11 @@ img {
     text-decoration: none;
 }
 
-.client li a h3 {
+.client li h3 {
     color: #ffffff;
 }
 
-.client li a span {
+.client li span {
     color: #f1f1f1;
 }
 
@@ -591,6 +592,10 @@ img {
 
 .main-section.team h6 {
     margin-bottom: 40px;
+}
+
+.single-comment {
+    padding: 0 1%;
 }
 
 
