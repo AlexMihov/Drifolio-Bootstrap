@@ -1,0 +1,23 @@
+{
+  "name": "mihov_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "slick-carousel": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexMihov/Mihov-Website.git"
+  },
+  "author": "Atanas Karamanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexMihov/Mihov-Website/issues"
+  },
+  "homepage": "https://github.com/AlexMihov/Mihov-Website#readme"
+}
