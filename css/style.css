@@ -238,7 +238,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     line-height: 20px;
-    margin: 17px 32px;
+    margin: 17px 25px;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -254,7 +254,7 @@ p {
 }
 
 .main-section {
-    padding: 90px 0 110px;
+    padding: 60px 0 80px;
 }
 
 
@@ -303,7 +303,7 @@ p {
 }
 
 .featured-work h2 {
-    text-align: left;
+    text-align: middle;
 }
 
 .featured-box {
@@ -481,10 +481,6 @@ img {
     transition-property: transform, opacity;
 }
 
-.main-section.paddind {
-    padding-bottom: 60px;
-}
-
 
 /* Clients
 ---------------------------------*/
@@ -543,8 +539,8 @@ img {
 .quote-right {
     opacity: .8;
     font-style: normal;
-    width: 68px;
-    height: 68px;
+    width: 66px;
+    height: 66px;
     margin: 0 auto;
     border: 2px solid #7cc576;
     border-radius: 50%;
@@ -588,6 +584,10 @@ img {
 }
 
 .main-section.team {
+    padding: 85px 0;
+}
+
+.main-section.featured-work {
     padding: 85px 0;
 }
 
