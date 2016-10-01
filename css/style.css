@@ -541,6 +541,7 @@ img {
 }
 
 .quote-right {
+    opacity: .8;
     font-style: normal;
     width: 68px;
     height: 68px;
