@@ -588,7 +588,7 @@ img {
 }
 
 .main-section.featured-work {
-    padding: 85px 0;
+    padding: 40px 0;
 }
 
 .main-section.team h6 {
@@ -597,6 +597,14 @@ img {
 
 .single-comment {
     padding: 0 1%;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-section.featured-work {
+        margin-top: 0px;
+        font-size: 18px;
+        line-height: 30px;
+    }
 }
 
 
