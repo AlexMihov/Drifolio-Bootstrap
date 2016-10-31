@@ -321,7 +321,9 @@ p {
 }
 
 .featured-work p.padding-b {
-    padding-bottom: 35px;
+    padding-bottom: 55px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .featured-box-col1 {
@@ -602,8 +604,13 @@ img {
 @media only screen and (max-width: 767px) {
     .main-section.featured-work {
         margin-top: 0px;
-        font-size: 18px;
-        line-height: 30px;
+    }
+    .featured-work p.padding-b {
+        line-height: 1.75;
+        font-size: 16px;
+    }
+    .noBr {
+        display: none;
     }
 }
 
