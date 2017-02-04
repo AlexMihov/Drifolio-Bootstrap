@@ -221,7 +221,7 @@ p {
 
 .main-nav {
     text-align: center;
-    margin: 10px 0 0px;
+    margin: 10px 0 0 115px;
     padding: 0;
     list-style: none;
 }
@@ -255,6 +255,10 @@ p {
 
 .main-section {
     padding: 60px 0 80px;
+}
+
+.contact-icon {
+    font-size: 18px;
 }
 
 
