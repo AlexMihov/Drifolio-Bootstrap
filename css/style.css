@@ -246,6 +246,10 @@ p {
     -webkit-transition: all 0.3s ease-in-out;
 }
 
+.main-nav li a.contact-link {
+    margin: 17px 10px;
+}
+
 .main-nav li a:hover {
     text-decoration: none;
     color: #7cc576;
@@ -260,7 +264,7 @@ p {
 }
 
 .contact-icon {
-    font-size: 18px;
+    font-size: 20px!important;
 }
 
 

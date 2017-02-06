@@ -16,12 +16,6 @@
     .main-nav {
         display: block !important;
     }
-    .float-right {
-        float: right;
-    }
-    .float-left {
-        float: left;
-    }
     /*.portfolioContainer{ width:800px; margin:0px auto !important; } */
 }
 
@@ -87,6 +81,9 @@
     .main-nav li a {
         padding: 8px 15px;
     }
+    .main-nav li.small-logo {
+        display: none;
+    }
     /*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
 }
@@ -133,7 +130,7 @@
         width: 100%;
         top: 74px;
         margin: 0 auto;
-        flote: none;
+        float: none;
         background: #fff;
     }
     .main-nav li {
