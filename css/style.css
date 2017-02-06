@@ -225,7 +225,6 @@ p {
     margin: 10px 0;
     padding: 0;
     list-style: none;
-    line-height: 80px;
 }
 
 .main-nav li {
@@ -239,7 +238,6 @@ p {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    line-height: 20px;
     margin: 17px 25px;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
