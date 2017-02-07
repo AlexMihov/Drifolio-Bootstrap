@@ -149,7 +149,7 @@
     }
     .team-leader-box {
         max-width: 307px;
-        width: auto;
+        width: 60%;
         float: none;
         margin: 0 auto;
     }
