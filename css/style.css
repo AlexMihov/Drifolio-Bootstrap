@@ -236,6 +236,10 @@ p {
 /* Navigation
 ---------------------------------*/
 
+.container-fluid {
+    width: 100%;
+}
+
 .main-nav-outer {
     padding: 0px;
     border-bottom: 1px solid #dddddd;
