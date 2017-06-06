@@ -530,7 +530,7 @@
                 $container.width(columns * colW)
                     .isotope('reLayout');
             }
-
+            $(window).trigger('resize.px.parallax');
         }).smartresize(); // trigger resize to set container width
         $('.portfolioFilter a').click(function() {
             $('.portfolioFilter .current').removeClass('current');
