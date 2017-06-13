@@ -10,7 +10,7 @@
 .pricing img {
     display: block;
     margin: auto;
-    width: 32px;
+    height: 72px;
 }
 
 .pricing li:first-child,
@@ -36,13 +36,7 @@
     font-size: 36px;
 }
 
-.pricing span {
-    font-size: 12px;
-    color: #999;
-    font-weight: normal;
-}
-
-.pricing li:nth-last-child(2) {
+.pricing li:nth-child(3) {
     padding: 30px 13px;
 }
 
@@ -73,37 +67,47 @@
 /* pricing color */
 
 .p-green big,
-.p-green h3 {
-    color: #4c7737;
+.p-green h3,
+.p-green span,
+.p-green a
+ {
+    color: #96bf48;
 }
 
 .p-green button {
-    background: #4c7737;
-}
-
-.p-yel big,
-.p-yel h3 {
-    color: #ffbb42;
-}
-
-.p-yel button {
-    background: #ffbb42;
-}
-
-.p-red big,
-.p-red h3 {
-    color: #e13c4c;
-}
-
-.p-red button {
-    background: #e13c4c;
+    background: #96bf48;
 }
 
 .p-blue big,
-.p-blue h3 {
-    color: #3f4bb8;
+.p-blue h3,
+.p-blue span,
+.p-blue a
+ {
+    color: #21759b;
 }
 
 .p-blue button {
-    background: #3f4bb8;
+    background: #21759b;
+}
+
+.p-grey big,
+.p-grey h3,
+.p-grey span,
+.p-grey a {
+    color: #828282;
+}
+
+.p-grey button {
+    background: #828282;
+}
+
+.p-lblue big,
+.p-lblue h3,
+.p-lblue span,
+.p-lblue a {
+    color: #4ABDEA;
+}
+
+.p-lblue button {
+    background: #4ABDEA;
 }
