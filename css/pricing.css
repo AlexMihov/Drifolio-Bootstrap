@@ -83,10 +83,6 @@
     background: #96bf48;
 }
 
-.p-green li:nth-child(6) {
-    padding-top: 66px;
-}
-
 .p-blue big,
 .p-blue h3,
 .p-blue span,
@@ -96,6 +92,10 @@
 
 .p-blue button {
     background: #21759b;
+}
+
+.p-blue li:nth-child(7) {
+    padding-top: 40px;
 }
 
 .p-grey big,
@@ -110,7 +110,7 @@
 }
 
 .p-grey li:nth-child(7) {
-    padding-top: 41px;
+    padding-top: 60px;
 }
 
 .p-lblue big,
@@ -125,5 +125,5 @@
 }
 
 .p-lblue li:nth-child(4) {
-    padding-top: 180px;
+    padding-top: 201px;
 }
