@@ -286,7 +286,7 @@ p {
 }
 
 .small-logo {
-    padding: 0 32px;
+    padding: 0 25px;
 }
 
 .main-section {
@@ -353,8 +353,9 @@ p {
 
 .featured-box {
     padding: 0 0 0 0;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: 14px;
+    min-height: 100px;
 }
 
 .featured-box h3 {
