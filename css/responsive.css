@@ -141,7 +141,6 @@
     }
     .main-nav li a {
         display: block;
-        padding: 7px 32px;
         border-bottom: none;
     }
     .main-nav li a:hover {
