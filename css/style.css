@@ -248,6 +248,8 @@ p {
 
 .container-fluid {
     width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .main-nav-outer {
@@ -294,7 +296,7 @@ p {
 }
 
 .small-logo {
-    padding: 0 32px;
+    padding: 0 25px;
 }
 
 .main-section {
@@ -361,8 +363,9 @@ p {
 
 .featured-box {
     padding: 0 0 0 0;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: 14px;
+    min-height: 100px;
 }
 
 .featured-box h3 {
@@ -374,7 +377,7 @@ p {
 }
 
 .featured-work p.padding-b {
-    padding-bottom: 55px;
+    padding-bottom: 50px;
     text-align: center;
     font-size: 18px;
 }
@@ -664,6 +667,12 @@ img {
     }
     .noBr {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1067px) {
+    .featured-work {
+        margin-top: 30px;
     }
 }
 
