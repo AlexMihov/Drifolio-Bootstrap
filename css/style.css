@@ -375,7 +375,7 @@ p {
 }
 
 .featured-work p.padding-b {
-    padding-bottom: 50px;
+    padding:0 15px 50px;
     text-align: center;
     font-size: 18px;
 }
