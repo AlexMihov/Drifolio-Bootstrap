@@ -1,8 +1,1 @@
-$(document).ready(function() {
-    $('.single-item').slick({
-    	dots: true,
-    	autoplay: true,
-    	infinite: true,
-    	autoplaySpeed: 6000
-    });
-});
+$(document).ready(function(){$(".single-item").slick({dots:!0,autoplay:!0,infinite:!0,autoplaySpeed:6e3})});
