@@ -154,10 +154,14 @@
     }
     .featured-work {
         font-size: 12px;
-        margin-top: 30px
+        margin-top: 0;
+    }
+    .work-picture {
+        margin-bottom: 30px;
     }
     .featured-box {
-        font-size: 12px
+        font-size: 12px;
+        margin-bottom: 0;
     }
     .featured-box p {
         line-height: 18px
